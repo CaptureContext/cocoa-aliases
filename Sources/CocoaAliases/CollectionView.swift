@@ -43,7 +43,7 @@ public typealias CocoaCollectionDelegate                              = UICollec
 public typealias CocoaCollectionViewLayout                            = UICollectionViewLayout
 public typealias CocoaCollectionViewLayoutAttributes                  = UICollectionViewLayoutAttributes
 public typealias CocoaCollectionViewInvalidationContext               = UICollectionViewLayoutInvalidationContext
-public typealias CocoaCollectionFlowLayout                            = UICollectionViewFlowLayout
+public typealias CocoaCollectionViewFlowLayout                        = UICollectionViewFlowLayout
 public typealias CocoaCollectionTransitionLayout                      = UICollectionViewTransitionLayout
 public typealias CocoaCollectionDelegateFlowLayout                    = UICollectionViewDelegateFlowLayout
 
@@ -62,7 +62,7 @@ public typealias CocoaCollectionViewLayoutAttributes                  = NSCollec
 public typealias CocoaCollectionViewInvalidationContext               = NSCollectionViewLayoutInvalidationContext
 
 @available(macOS 10.11, *)
-public typealias CocoaCollectionFlowLayout                            = NSCollectionViewFlowLayout
+public typealias CocoaCollectionViewFlowLayout                        = NSCollectionViewFlowLayout
 
 @available(macOS 10.11, *)
 public typealias CocoaCollectionGridLayout                            = NSCollectionViewGridLayout
