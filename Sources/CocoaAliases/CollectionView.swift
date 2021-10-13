@@ -37,20 +37,20 @@ public typealias CocoaCollectionViewPrefetching                                 
 
 #if os(iOS)
 
-public typealias CocoaCollectionDataSource                            = UICollectionViewDataSource
-public typealias CocoaCollectionDelegate                              = UICollectionViewDelegate
+public typealias CocoaCollectionViewDataSource                        = UICollectionViewDataSource
+public typealias CocoaCollectionViewDelegate                          = UICollectionViewDelegate
 
 public typealias CocoaCollectionViewLayout                            = UICollectionViewLayout
 public typealias CocoaCollectionViewLayoutAttributes                  = UICollectionViewLayoutAttributes
 public typealias CocoaCollectionViewInvalidationContext               = UICollectionViewLayoutInvalidationContext
 public typealias CocoaCollectionViewFlowLayout                        = UICollectionViewFlowLayout
-public typealias CocoaCollectionTransitionLayout                      = UICollectionViewTransitionLayout
-public typealias CocoaCollectionDelegateFlowLayout                    = UICollectionViewDelegateFlowLayout
+public typealias CocoaCollectionViewTransitionLayout                  = UICollectionViewTransitionLayout
+public typealias CocoaCollectionViewDelegateFlowLayout                = UICollectionViewDelegateFlowLayout
 
 #elseif os(macOS)
 
-public typealias CocoaCollectionDataSource                            = NSCollectionViewDataSource
-public typealias CocoaCollectionDelegate                              = NSCollectionViewDelegate
+public typealias CocoaCollectionViewDataSource                        = NSCollectionViewDataSource
+public typealias CocoaCollectionViewDelegate                          = NSCollectionViewDelegate
 
 @available(macOS 10.11, *)
 public typealias CocoaCollectionViewLayout                            = NSCollectionViewLayout
@@ -65,13 +65,13 @@ public typealias CocoaCollectionViewInvalidationContext               = NSCollec
 public typealias CocoaCollectionViewFlowLayout                        = NSCollectionViewFlowLayout
 
 @available(macOS 10.11, *)
-public typealias CocoaCollectionGridLayout                            = NSCollectionViewGridLayout
+public typealias CocoaCollectionViewGridLayout                        = NSCollectionViewGridLayout
 
 @available(macOS 10.11, *)
-public typealias CocoaCollectionTransitionLayout                      = NSCollectionViewTransitionLayout
+public typealias CocoaCollectionViewTransitionLayout                  = NSCollectionViewTransitionLayout
 
 @available(macOS 10.11, *)
-public typealias CocoaCollectionDelegateFlowLayout                    = NSCollectionViewDelegateFlowLayout
+public typealias CocoaCollectionViewDelegateFlowLayout                = NSCollectionViewDelegateFlowLayout
 
 #endif
 
