@@ -1,15 +1,44 @@
 #if os(iOS)
 import UIKit
 
-public typealias CocoaCollectionView                                  = UICollectionView
+public typealias CocoaCollectionView                                                     = UICollectionView
+public typealias CocoaCollectionViewCell                                                 = UICollectionViewCell
+public typealias CocoaCollectionReusableView                                             = UICollectionReusableView
+
+@available(iOS 13.0, *)
+public typealias CocoaCollectionViewDiffableDataSource                                   = UICollectionViewDiffableDataSource
+
+@available(iOS 13.0, *)
+public typealias CocoaCollectionViewDiffableDataSourceReference                          = UICollectionViewDiffableDataSourceReference
+
+public typealias CocoaCollectionViewDiffableDataSourceReferenceCellProvider              = UICollectionViewDiffableDataSourceReferenceCellProvider
+public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = UICollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
+
+public typealias CocoaCollectionViewPrefetching                                          = UICollectionViewDataSourcePrefetching
 
 #elseif os(macOS)
 import AppKit
 
-public typealias CocoaCollectionView                                  = NSCollectionView
+public typealias CocoaCollectionView                                                     = NSCollectionView
+public typealias CocoaCollectionViewCell                                                 = NSCollectionViewItem
+public typealias CocoaCollectionReusableView                                             = NSView
+
+@available(macOS 10.15.1, *)
+public typealias CocoaCollectionViewDiffableDataSource                                   = NSCollectionViewDiffableDataSource
+
+@available(macOS 10.15.1, *)
+public typealias CocoaCollectionViewDiffableDataSourceReference                          = NSCollectionViewDiffableDataSourceReference
+
+public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = NSCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
+
+public typealias CocoaCollectionViewPrefetching                                          = NSCollectionViewPrefetching
+
 #endif
 
 #if os(iOS)
+
+public typealias CocoaCollectionDataSource                            = UICollectionViewDataSource
+public typealias CocoaCollectionDelegate                              = UICollectionViewDelegate
 
 public typealias CocoaCollectionViewLayout                            = UICollectionViewLayout
 public typealias CocoaCollectionViewLayoutAttributes                  = UICollectionViewLayoutAttributes
@@ -19,6 +48,9 @@ public typealias CocoaCollectionTransitionLayout                      = UICollec
 public typealias CocoaCollectionDelegateFlowLayout                    = UICollectionViewDelegateFlowLayout
 
 #elseif os(macOS)
+
+public typealias CocoaCollectionDataSource                            = NSCollectionViewDataSource
+public typealias CocoaCollectionDelegate                              = NSCollectionViewDelegate
 
 @available(macOS 10.11, *)
 public typealias CocoaCollectionViewLayout                            = NSCollectionViewLayout
