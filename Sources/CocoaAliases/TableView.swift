@@ -17,8 +17,8 @@ import AppKit
 
 public typealias CocoaTableView                                  = NSTableView
 public typealias CocoaTableViewCell                              = NSCell
-public typealias CocoaTableViewDataSource                            = NSTableViewDataSource
-public typealias CocoaTableViewDelegate                              = NSTableViewDelegate
+public typealias CocoaTableViewDataSource                        = NSTableViewDataSource
+public typealias CocoaTableViewDelegate                          = NSTableViewDelegate
 
 @available(macOS 11, *)
 public typealias CocoaTableViewDiffableDataSource                = NSTableViewDiffableDataSource
