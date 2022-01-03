@@ -75,6 +75,8 @@ public typealias CocoaCollectionViewDelegateFlowLayout                = NSCollec
 
 #endif
 
+#if !os(watchOS)
+
 // MARK: - Compositional
 
 @available(macOS 10.15, iOS 13.0, *)
@@ -118,6 +120,8 @@ public typealias CocoaCollectionLayoutSupplementaryItem = NSCollectionLayoutSupp
 
 @available(macOS 10.15, iOS 13.0, *)
 public typealias CocoaCollectionLayoutVisibleItem = NSCollectionLayoutVisibleItem
+
+#endif
 
 @available(macOS 10.15, iOS 13.0, *)
 public typealias CocoaDirectionalEdgeInsets = NSDirectionalEdgeInsets

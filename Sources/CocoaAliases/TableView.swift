@@ -28,8 +28,12 @@ public typealias CocoaTableViewDiffableDataSourceReference       = NSTableViewDi
 
 #endif
 
+#if !os(watchOS)
+
 @available(macOS 10.15.1, iOS 13, *)
 public typealias CocoaDiffableDataSourceSnapshot = NSDiffableDataSourceSnapshot
 
 @available(macOS 10.15.1, iOS 13, *)
 public typealias CocoaDiffableDataSourceSnapshotReference = NSDiffableDataSourceSnapshotReference
+
+#endif
