@@ -1,5 +1,7 @@
 # CocoaAlises
 
+[![SwiftPM 5.3](https://img.shields.io/badge/swiftpm-5.3-ED523F.svg?style=flat)](https://swift.org/download/) ![Platforms](https://img.shields.io/badge/Platforms-iOS_13_|_macOS_10.15_|_tvOS_14_|_watchOS_7-ED523F.svg?style=flat) [![@maximkrouk](https://img.shields.io/badge/contact-@capturecontext-1DA1F2.svg?style=flat&logo=twitter)](https://twitter.com/capture_context) 
+
 Just a bunch of typealeases for the AppKit and UIKit.
 
 This package gives an abitily to use Cocoa prefixed equivalents of NS prefixed classes from the AppKit and UI prefixed classes from UIKit (mostly for classes that have alternatives in these frameworks), makes the development of cross-platform UI frameworks a little bit easier, reduces the amount of boilerplate code.
@@ -47,8 +49,8 @@ Just add a link to this repo to your Package.swift file.
 ```swift
 .package(
   name: "cocoa-alaises",
-  url: "https://github.com/makeupstudio/cocoa-alaises.git",
-  from: "1.0.0"
+  url: "https://github.com/capturecontext/cocoa-alaises.git",
+  .upToNextMajor(from: "2.0.0")
 )
 ```
 
@@ -62,7 +64,3 @@ Just add a link to this repo to your Package.swift file.
 ## License
 
 CocoaAliases is available under the MIT license. See the LICENSE file for more info.
-
----
-
-*Feel free to contribute or [communicate](https://twitter.com/maximkrouk).*
