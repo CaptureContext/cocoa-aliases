@@ -1,4 +1,4 @@
-#if os(iOS) && canImport(SwiftUI)
+#if canImport(UIKit) && canImport(SwiftUI) && !os(watchOS)
 import SwiftUI
 
 @available(iOS 13.0, tvOS 13.0, *)
@@ -46,7 +46,7 @@ extension CocoaViewControllerRepresentable {
     updateCocoaViewController(controller, context: context)
   }
 }
-#elseif os(macOS) && canImport(SwiftUI)
+#elseif canImport(AppKit) && canImport(SwiftUI)
 import SwiftUI
 
 @available(macOS 10.15, *)

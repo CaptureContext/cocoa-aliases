@@ -1,4 +1,4 @@
-#if os(iOS)
+#if canImport(UIKit) && !os(watchOS)
 import UIKit
 
 public typealias CocoaTableView                                  = UITableView
@@ -12,7 +12,7 @@ public typealias CocoaTableViewDiffableDataSource                = UITableViewDi
 @available(iOS 13, *)
 public typealias CocoaTableViewDiffableDataSourceReference       = UITableViewDiffableDataSourceReference
 
-#elseif os(macOS)
+#elseif canImport(AppKit)
 import AppKit
 
 public typealias CocoaTableView                                  = NSTableView

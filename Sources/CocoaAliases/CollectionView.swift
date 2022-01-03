@@ -1,4 +1,4 @@
-#if os(iOS)
+#if canImport(UIKit) && !os(watchOS)
 import UIKit
 
 public typealias CocoaCollectionView                                                     = UICollectionView
@@ -16,7 +16,7 @@ public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryView
 
 public typealias CocoaCollectionViewPrefetching                                          = UICollectionViewDataSourcePrefetching
 
-#elseif os(macOS)
+#elseif canImport(AppKit)
 import AppKit
 
 public typealias CocoaCollectionView                                                     = NSCollectionView
@@ -35,7 +35,7 @@ public typealias CocoaCollectionViewPrefetching                                 
 
 #endif
 
-#if os(iOS)
+#if canImport(UIKit) && !os(watchOS)
 
 public typealias CocoaCollectionViewDataSource                        = UICollectionViewDataSource
 public typealias CocoaCollectionViewDelegate                          = UICollectionViewDelegate
@@ -47,7 +47,7 @@ public typealias CocoaCollectionViewFlowLayout                        = UICollec
 public typealias CocoaCollectionViewTransitionLayout                  = UICollectionViewTransitionLayout
 public typealias CocoaCollectionViewDelegateFlowLayout                = UICollectionViewDelegateFlowLayout
 
-#elseif os(macOS)
+#elseif canImport(AppKit)
 
 public typealias CocoaCollectionViewDataSource                        = NSCollectionViewDataSource
 public typealias CocoaCollectionViewDelegate                          = NSCollectionViewDelegate
@@ -126,7 +126,7 @@ public typealias CocoaCollectionLayoutVisibleItem = NSCollectionLayoutVisibleIte
 @available(macOS 10.15, iOS 13.0, *)
 public typealias CocoaDirectionalEdgeInsets = NSDirectionalEdgeInsets
 
-#if os(iOS)
+#if canImport(UIKit) && !os(watchOS)
 
 @available(iOS 13.0, *)
 public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = UICollectionLayoutSectionOrthogonalScrollingBehavior
@@ -140,7 +140,7 @@ public typealias CocoaCollectionViewCompositionalLayoutConfiguration = UICollect
 @available(iOS 13.0, *)
 public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = UICollectionViewCompositionalLayoutSectionProvider
 
-#elseif os(macOS)
+#elseif canImport(AppKit)
 
 @available(macOS 10.15, *)
 public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = NSCollectionLayoutSectionOrthogonalScrollingBehavior
