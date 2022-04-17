@@ -48,7 +48,6 @@ public typealias CocoaCollectionViewTransitionLayout                  = UICollec
 public typealias CocoaCollectionViewDelegateFlowLayout                = UICollectionViewDelegateFlowLayout
 
 #elseif canImport(AppKit)
-
 public typealias CocoaCollectionViewDataSource                        = NSCollectionViewDataSource
 public typealias CocoaCollectionViewDelegate                          = NSCollectionViewDelegate
 

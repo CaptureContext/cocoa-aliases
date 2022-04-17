@@ -3,8 +3,8 @@ import UIKit
 
 public typealias CocoaTableView                                  = UITableView
 public typealias CocoaTableViewCell                              = UITableViewCell
-public typealias CocoaTableViewDataSource                            = UITableViewDataSource
-public typealias CocoaTableViewDelegate                              = UITableViewDelegate
+public typealias CocoaTableViewDataSource                        = UITableViewDataSource
+public typealias CocoaTableViewDelegate                          = UITableViewDelegate
 
 @available(iOS 13, *)
 public typealias CocoaTableViewDiffableDataSource                = UITableViewDiffableDataSource
@@ -17,8 +17,13 @@ import AppKit
 
 public typealias CocoaTableView                                  = NSTableView
 public typealias CocoaTableViewCell                              = NSCell
+public typealias CocoaTableRowView                               = NSTableRowView
+public typealias CocoaTableHeaderView                            = NSTableHeaderView
+public typealias CocoaTableHeaderCell                            = NSTableHeaderCell
 public typealias CocoaTableViewDataSource                        = NSTableViewDataSource
 public typealias CocoaTableViewDelegate                          = NSTableViewDelegate
+public typealias CocoaTableSection                               = NSTableColumn
+
 
 @available(macOS 11, *)
 public typealias CocoaTableViewDiffableDataSource                = NSTableViewDiffableDataSource
