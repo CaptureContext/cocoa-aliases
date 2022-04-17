@@ -16,7 +16,7 @@ public typealias CocoaTableViewDiffableDataSourceReference       = UITableViewDi
 import AppKit
 
 public typealias CocoaTableView                                  = NSTableView
-public typealias CocoaTableViewCell                              = NSCell
+public typealias CocoaTableViewCell                              = NSTableCellView
 public typealias CocoaTableRowView                               = NSTableRowView
 public typealias CocoaTableHeaderView                            = NSTableHeaderView
 public typealias CocoaTableHeaderCell                            = NSTableHeaderCell

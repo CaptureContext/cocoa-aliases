@@ -7,6 +7,7 @@ public typealias CocoaAlert                                           = NSAlert
 public typealias CocoaAppearance                                      = NSAppearance
 public typealias CocoaApplication                                     = NSApplication
 public typealias CocoaButton                                          = NSButton
+public typealias CocoaCell                                            = NSCell
 public typealias CocoaColor                                           = NSColor
 public typealias CocoaControl                                         = NSControl
 public typealias CocoaDatePicker                                      = NSDatePicker
