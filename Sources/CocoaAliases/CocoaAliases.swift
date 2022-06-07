@@ -1,53 +1,4 @@
-#if canImport(AppKit)
-import AppKit
-
-public typealias CocoaAccessibility                                   = NSAccessibility
-public typealias CocoaAccessibilityElement                            = NSAccessibilityElement
-public typealias CocoaAlert                                           = NSAlert
-public typealias CocoaAppearance                                      = NSAppearance
-public typealias CocoaApplication                                     = NSApplication
-public typealias CocoaButton                                          = NSButton
-public typealias CocoaCell                                            = NSCell
-public typealias CocoaColor                                           = NSColor
-public typealias CocoaControl                                         = NSControl
-public typealias CocoaDatePicker                                      = NSDatePicker
-public typealias CocoaDocument                                        = NSDocument
-public typealias CocoaEvent                                           = NSEvent
-public typealias CocoaFont                                            = NSFont
-public typealias CocoaFontDescriptor                                  = NSFontDescriptor
-public typealias CocoaGestureRecognizer                               = NSGestureRecognizer
-public typealias CocoaImage                                           = NSImage
-public typealias CocoaImageView                                       = NSImageView
-public typealias CocoaMenu                                            = NSMenu
-public typealias CocoaNib                                             = NSNib
-public typealias CocoaPanGestureRecognizer                            = NSPanGestureRecognizer
-public typealias CocoaPasteboard                                      = NSPasteboard
-public typealias CocoaPrintInfo                                       = NSPrintInfo
-public typealias CocoaPrinter                                         = NSPrinter
-public typealias CocoaResponder                                       = NSResponder
-public typealias CocoaRotationGestureRecognizer                       = NSRotationGestureRecognizer
-public typealias CocoaScreen                                          = NSScreen
-public typealias CocoaScrollView                                      = NSScrollView
-public typealias CocoaSegmentedControl                                = NSSegmentedControl
-public typealias CocoaSlider                                          = NSSlider
-public typealias CocoaSplitViewController                             = NSSplitViewController
-public typealias CocoaStackView                                       = NSStackView
-public typealias CocoaStepper                                         = NSStepper
-public typealias CocoaStoryboard                                      = NSStoryboard
-public typealias CocoaStoryboardSegue                                 = NSStoryboardSegue
-public typealias CocoaTextField                                       = NSTextField
-public typealias CocoaTextInput                                       = NSTextInput
-public typealias CocoaTextInputTraits                                 = NSTextInputTraits
-public typealias CocoaTextView                                        = NSTextView
-public typealias CocoaToolbar                                         = NSToolbar
-public typealias CocoaTouch                                           = NSTouch
-public typealias CocoaUserActivity                                    = NSUserActivity
-public typealias CocoaView                                            = NSView
-public typealias CocoaViewController                                  = NSViewController
-public typealias CocoaVisualEffectView                                = NSVisualEffectView
-public typealias CocoaWindow                                          = NSWindow
-
-#elseif canImport(UIKit)
+#if canImport(UIKit)
 import UIKit
 
 public typealias CocoaAccessibility                                   = UIAccessibility
@@ -103,4 +54,53 @@ public typealias CocoaViewController                                  = UIViewCo
 public typealias CocoaVisualEffectView                                = UIVisualEffectView
 public typealias CocoaWindow                                          = UIWindow
 #endif
+
+#elseif os(macOS)
+import AppKit
+
+public typealias CocoaAccessibility                                   = NSAccessibility
+public typealias CocoaAccessibilityElement                            = NSAccessibilityElement
+public typealias CocoaAlert                                           = NSAlert
+public typealias CocoaAppearance                                      = NSAppearance
+public typealias CocoaApplication                                     = NSApplication
+public typealias CocoaButton                                          = NSButton
+public typealias CocoaCell                                            = NSCell
+public typealias CocoaColor                                           = NSColor
+public typealias CocoaControl                                         = NSControl
+public typealias CocoaDatePicker                                      = NSDatePicker
+public typealias CocoaDocument                                        = NSDocument
+public typealias CocoaEvent                                           = NSEvent
+public typealias CocoaFont                                            = NSFont
+public typealias CocoaFontDescriptor                                  = NSFontDescriptor
+public typealias CocoaGestureRecognizer                               = NSGestureRecognizer
+public typealias CocoaImage                                           = NSImage
+public typealias CocoaImageView                                       = NSImageView
+public typealias CocoaMenu                                            = NSMenu
+public typealias CocoaNib                                             = NSNib
+public typealias CocoaPanGestureRecognizer                            = NSPanGestureRecognizer
+public typealias CocoaPasteboard                                      = NSPasteboard
+public typealias CocoaPrintInfo                                       = NSPrintInfo
+public typealias CocoaPrinter                                         = NSPrinter
+public typealias CocoaResponder                                       = NSResponder
+public typealias CocoaRotationGestureRecognizer                       = NSRotationGestureRecognizer
+public typealias CocoaScreen                                          = NSScreen
+public typealias CocoaScrollView                                      = NSScrollView
+public typealias CocoaSegmentedControl                                = NSSegmentedControl
+public typealias CocoaSlider                                          = NSSlider
+public typealias CocoaSplitViewController                             = NSSplitViewController
+public typealias CocoaStackView                                       = NSStackView
+public typealias CocoaStepper                                         = NSStepper
+public typealias CocoaStoryboard                                      = NSStoryboard
+public typealias CocoaStoryboardSegue                                 = NSStoryboardSegue
+public typealias CocoaTextField                                       = NSTextField
+public typealias CocoaTextInput                                       = NSTextInput
+public typealias CocoaTextInputTraits                                 = NSTextInputTraits
+public typealias CocoaTextView                                        = NSTextView
+public typealias CocoaToolbar                                         = NSToolbar
+public typealias CocoaTouch                                           = NSTouch
+public typealias CocoaUserActivity                                    = NSUserActivity
+public typealias CocoaView                                            = NSView
+public typealias CocoaViewController                                  = NSViewController
+public typealias CocoaVisualEffectView                                = NSVisualEffectView
+public typealias CocoaWindow                                          = NSWindow
 #endif
