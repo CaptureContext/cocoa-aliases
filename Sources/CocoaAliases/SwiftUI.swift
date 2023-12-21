@@ -1,6 +1,8 @@
 #if canImport(UIKit) && canImport(SwiftUI) && !os(watchOS)
 import SwiftUI
 
+public typealias CocoaHostingController = UIHostingController
+
 @available(iOS 13.0, tvOS 13.0, *)
 @available(macOS, unavailable)
 @available(watchOS, unavailable)
@@ -48,6 +50,8 @@ extension CocoaViewControllerRepresentable {
 }
 #elseif canImport(AppKit) && canImport(SwiftUI)
 import SwiftUI
+
+public typealias CocoaHostingController = NSHostingController
 
 @available(macOS 10.15, *)
 @available(iOS, unavailable)
