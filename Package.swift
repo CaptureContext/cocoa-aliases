@@ -18,10 +18,7 @@ let package = Package(
 		),
 	],
 	dependencies: [
-		.package(
-			url: "https://github.com/capturecontext/swift-marker-protocols.git",
-			.upToNextMajor(from: "1.0.0")
-		),
+		.package(path: "../swift-marker-protocols"),
 	],
 	targets: [
 		.target(
