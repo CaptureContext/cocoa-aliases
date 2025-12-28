@@ -3,6 +3,21 @@ import SwiftUI
 
 public typealias CocoaHostingController = UIHostingController
 
+@available(iOS 16.0, tvOS 16.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingConfiguration = UIHostingConfiguration
+
+@available(iOS 26.0, tvOS 26.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingSceneDelegate = UIHostingSceneDelegate
+
+@available(iOS 16.0, tvOS 16.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingControllerSizingOptions = UIHostingControllerSizingOptions
+
 @available(iOS 13.0, tvOS 13.0, *)
 @available(macOS, unavailable)
 @available(watchOS, unavailable)

@@ -1,5 +1,9 @@
 #if canImport(UIKit)
 import UIKit
+import CocoaMarkerProtocols
+
+public typealias _CocoaViewProtocol                                   = _UIViewProtocol
+public typealias _CocoaViewControllerProtocol                         = _UIViewControllerProtocol
 
 public typealias CocoaAccessibility                                   = UIAccessibility
 public typealias CocoaFont                                            = UIFont
@@ -57,6 +61,10 @@ public typealias CocoaWindow                                          = UIWindow
 
 #elseif os(macOS)
 import AppKit
+import CocoaMarkerProtocols
+
+public typealias _CocoaViewProtocol                                   = _NSViewProtocol
+public typealias _CocoaViewControllerProtocol                         = _NSViewControllerProtocol
 
 public typealias CocoaAccessibility                                   = NSAccessibility
 public typealias CocoaAccessibilityElement                            = NSAccessibilityElement
