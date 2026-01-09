@@ -157,7 +157,7 @@ public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = NSColle
 
 @available(macOS 10.15, iOS 13.0, *)
 extension NSDirectionalEdgeInsets {
-    public static var zero: NSDirectionalEdgeInsets {
-        return NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
-    }
+	public static var zero: NSDirectionalEdgeInsets {
+		return NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
+	}
 }
