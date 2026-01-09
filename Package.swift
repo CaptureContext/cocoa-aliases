@@ -1,4 +1,4 @@
-// swift-tools-version:6.0
+// swift-tools-version: 6.2
 
 import PackageDescription
 
@@ -18,7 +18,10 @@ let package = Package(
 		),
 	],
 	dependencies: [
-		.package(path: "../swift-marker-protocols"),
+		.package(
+			url: "https://github.com/capturecontext/swift-marker-protocols.git",
+			.upToNextMajor(from: "1.2.0")
+		),
 	],
 	targets: [
 		.target(

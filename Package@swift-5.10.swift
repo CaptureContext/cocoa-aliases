@@ -20,7 +20,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/capturecontext/swift-marker-protocols.git",
-			.upToNextMajor(from: "1.0.0")
+			.upToNextMajor(from: "1.2.0")
 		),
 	],
 	targets: [
@@ -33,6 +33,5 @@ let package = Package(
 				),
 			]
 		)
-	],
-	swiftLanguageVersions: [.v6]
+	]
 )
