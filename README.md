@@ -75,7 +75,7 @@ If you use SwiftPM for your project structure, add CocoaAliases to your package 
 
 ```swift
 .package(
-  url: "git@github.com:capturecontext/cocoa-aliases.git",
+  url: "https://github.com/capturecontext/cocoa-aliases.git",
   .upToNextMinor(from: "3.1.0")
 )
 ```
