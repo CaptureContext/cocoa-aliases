@@ -1,0 +1,12 @@
+version: 1
+builder:
+  configs:
+  - platform: ios
+    scheme: CocoaAliases
+  - platform: macos-xcodebuild
+    scheme: CocoaAliases
+  - platform: tvos
+    scheme: CocoaAliases
+  - platform: watchos
+    scheme: CocoaAliases
+  - documentation_targets: [CocoaAliases]
