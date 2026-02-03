@@ -1,12 +1,14 @@
-#if canImport(UIKit) && canImport(SwiftUI) && !os(watchOS)
+#if canImport(UIKit) && canImport(SwiftUI)
 import SwiftUI
-
-public typealias CocoaHostingController = UIHostingController
 
 @available(iOS 16.0, tvOS 16.0, *)
 @available(macOS, unavailable)
 @available(watchOS, unavailable)
 public typealias CocoaHostingConfiguration = UIHostingConfiguration
+
+#if !os(watchOS)
+
+public typealias CocoaHostingController = UIHostingController
 
 @available(iOS 26.0, tvOS 26.0, *)
 @available(macOS, unavailable)
@@ -63,6 +65,8 @@ extension CocoaViewControllerRepresentable {
 		updateCocoaViewController(controller, context: context)
 	}
 }
+#endif
+
 #elseif canImport(AppKit) && canImport(SwiftUI)
 import SwiftUI
 

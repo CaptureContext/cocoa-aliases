@@ -1,19 +1,30 @@
-#if canImport(UIKit) && !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
+@available(watchOS, unavailable)
 public typealias CocoaCollectionView                                                     = UICollectionView
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewCell                                                 = UICollectionViewCell
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionReusableView                                             = UICollectionReusableView
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDiffableDataSource                                   = UICollectionViewDiffableDataSource
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDiffableDataSourceReference                          = UICollectionViewDiffableDataSourceReference
 
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDiffableDataSourceReferenceCellProvider              = UICollectionViewDiffableDataSourceReferenceCellProvider
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = UICollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
 
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewPrefetching                                          = UICollectionViewDataSourcePrefetching
 
 #elseif canImport(AppKit)
@@ -35,16 +46,30 @@ public typealias CocoaCollectionViewPrefetching                                 
 
 #endif
 
-#if canImport(UIKit) && !os(watchOS)
+#if canImport(UIKit)
 
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDataSource                        = UICollectionViewDataSource
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDelegate                          = UICollectionViewDelegate
 
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewLayout                            = UICollectionViewLayout
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewLayoutAttributes                  = UICollectionViewLayoutAttributes
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewInvalidationContext               = UICollectionViewLayoutInvalidationContext
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewFlowLayout                        = UICollectionViewFlowLayout
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewTransitionLayout                  = UICollectionViewTransitionLayout
+
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewDelegateFlowLayout                = UICollectionViewDelegateFlowLayout
 
 #elseif canImport(AppKit)
@@ -74,69 +99,84 @@ public typealias CocoaCollectionViewDelegateFlowLayout                = NSCollec
 
 #endif
 
-#if !os(watchOS)
-
 // MARK: - Compositional
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutAnchor = NSCollectionLayoutAnchor
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutBoundarySupplementaryItem = NSCollectionLayoutBoundarySupplementaryItem
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutDecorationItem = NSCollectionLayoutDecorationItem
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutDimension = NSCollectionLayoutDimension
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutEdgeSpacing = NSCollectionLayoutEdgeSpacing
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutEnvironment = NSCollectionLayoutEnvironment
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutGroup = NSCollectionLayoutGroup
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutGroupCustomItem = NSCollectionLayoutGroupCustomItem
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutItem = NSCollectionLayoutItem
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutSection = NSCollectionLayoutSection
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutSize = NSCollectionLayoutSize
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutSpacing = NSCollectionLayoutSpacing
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutSupplementaryItem = NSCollectionLayoutSupplementaryItem
 
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutVisibleItem = NSCollectionLayoutVisibleItem
 
-#endif
-
 @available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaDirectionalEdgeInsets = NSDirectionalEdgeInsets
 
-#if canImport(UIKit) && !os(watchOS)
+#if canImport(UIKit)
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = UICollectionLayoutSectionOrthogonalScrollingBehavior
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewCompositionalLayout = UICollectionViewCompositionalLayout
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewCompositionalLayoutConfiguration = UICollectionViewCompositionalLayoutConfiguration
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = UICollectionViewCompositionalLayoutSectionProvider
 
 #elseif canImport(AppKit)

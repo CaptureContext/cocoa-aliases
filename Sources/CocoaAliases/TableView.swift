@@ -1,15 +1,24 @@
-#if canImport(UIKit) && !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
+@available(watchOS, unavailable)
 public typealias CocoaTableView                                  = UITableView
+
+@available(watchOS, unavailable)
 public typealias CocoaTableViewCell                              = UITableViewCell
+
+@available(watchOS, unavailable)
 public typealias CocoaTableViewDataSource                        = UITableViewDataSource
+
+@available(watchOS, unavailable)
 public typealias CocoaTableViewDelegate                          = UITableViewDelegate
 
 @available(iOS 13, *)
+@available(watchOS, unavailable)
 public typealias CocoaTableViewDiffableDataSource                = UITableViewDiffableDataSource
 
 @available(iOS 13, *)
+@available(watchOS, unavailable)
 public typealias CocoaTableViewDiffableDataSourceReference       = UITableViewDiffableDataSourceReference
 
 #elseif canImport(AppKit)
@@ -33,12 +42,10 @@ public typealias CocoaTableViewDiffableDataSourceReference       = NSTableViewDi
 
 #endif
 
-#if !os(watchOS)
-
 @available(macOS 10.15.1, iOS 13, *)
+@available(watchOS, unavailable)
 public typealias CocoaDiffableDataSourceSnapshot = NSDiffableDataSourceSnapshot
 
 @available(macOS 10.15.1, iOS 13, *)
+@available(watchOS, unavailable)
 public typealias CocoaDiffableDataSourceSnapshotReference = NSDiffableDataSourceSnapshotReference
-
-#endif

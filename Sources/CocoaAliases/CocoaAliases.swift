@@ -2,7 +2,10 @@
 import UIKit
 import CocoaMarkerProtocols
 
+@available(watchOS, unavailable)
 public typealias _CocoaViewProtocol                                   = _UIViewProtocol
+
+@available(watchOS, unavailable)
 public typealias _CocoaViewControllerProtocol                         = _UIViewControllerProtocol
 
 public typealias CocoaAccessibility                                   = UIAccessibility
@@ -11,52 +14,128 @@ public typealias CocoaFontDescriptor                                  = UIFontDe
 public typealias CocoaColor                                           = UIColor
 public typealias CocoaImage                                           = UIImage
 
-#if !os(watchOS)
-#if !os(tvOS)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
 public typealias CocoaDatePicker                                      = UIDatePicker
-public typealias CocoaDocument                                        = UIDocument
-public typealias CocoaPasteboard                                      = UIPasteboard
-public typealias CocoaPrintInfo                                       = UIPrintInfo
-public typealias CocoaPrinter                                         = UIPrinter
-public typealias CocoaRotationGestureRecognizer                       = UIRotationGestureRecognizer
-public typealias CocoaSlider                                          = UISlider
-public typealias CocoaToolbar                                         = UIToolbar
-public typealias CocoaStepper                                         = UIStepper
-#endif
 
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaDocument                                        = UIDocument
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPasteboard                                      = UIPasteboard
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPrintInfo                                       = UIPrintInfo
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPrinter                                         = UIPrinter
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaRotationGestureRecognizer                       = UIRotationGestureRecognizer
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaSlider                                          = UISlider
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaToolbar                                         = UIToolbar
+
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaStepper                                         = UIStepper
+
+
+@available(watchOS, unavailable)
 public typealias CocoaEvent                                           = UIEvent
+
+@available(watchOS, unavailable)
 public typealias CocoaGestureRecognizer                               = UIGestureRecognizer
 
+@available(watchOS, unavailable)
 public typealias CocoaAccessibilityElement                            = UIAccessibilityElement
+
+@available(watchOS, unavailable)
 public typealias CocoaAppearance                                      = UIAppearance
+
+@available(watchOS, unavailable)
 public typealias CocoaApplication                                     = UIApplication
+
+@available(watchOS, unavailable)
 public typealias CocoaButton                                          = UIButton
+
+@available(watchOS, unavailable)
 public typealias CocoaControl                                         = UIControl
 
+@available(watchOS, unavailable)
 public typealias CocoaImageView                                       = UIImageView
 
 @available(iOS 13.0, *)
+@available(watchOS, unavailable)
 public typealias CocoaMenu                                            = UIMenu
 
+@available(watchOS, unavailable)
 public typealias CocoaNib                                             = UINib
+
+@available(watchOS, unavailable)
 public typealias CocoaPanGestureRecognizer                            = UIPanGestureRecognizer
+
+@available(watchOS, unavailable)
 public typealias CocoaResponder                                       = UIResponder
+
+@available(watchOS, unavailable)
 public typealias CocoaScreen                                          = UIScreen
+
+@available(watchOS, unavailable)
 public typealias CocoaScrollView                                      = UIScrollView
+
+@available(watchOS, unavailable)
 public typealias CocoaSegmentedControl                                = UISegmentedControl
+
+@available(watchOS, unavailable)
 public typealias CocoaSplitViewController                             = UISplitViewController
+
+@available(watchOS, unavailable)
 public typealias CocoaStackView                                       = UIStackView
+
+@available(watchOS, unavailable)
 public typealias CocoaStoryboard                                      = UIStoryboard
+
+@available(watchOS, unavailable)
 public typealias CocoaStoryboardSegue                                 = UIStoryboardSegue
+
+@available(watchOS, unavailable)
 public typealias CocoaTextField                                       = UITextField
+
+@available(watchOS, unavailable)
 public typealias CocoaTextInput                                       = UITextInput
-public typealias CocoaTextInputTraits                                 = UITextInputTraits
+
+@available(watchOS, unavailable)
 public typealias CocoaTextView                                        = UITextView
+
+@available(watchOS, unavailable)
 public typealias CocoaTouch                                           = UITouch
+
+@available(watchOS, unavailable)
 public typealias CocoaView                                            = UIView
+
+@available(watchOS, unavailable)
 public typealias CocoaViewController                                  = UIViewController
+
+@available(watchOS, unavailable)
 public typealias CocoaVisualEffectView                                = UIVisualEffectView
+
+@available(watchOS, unavailable)
 public typealias CocoaWindow                                          = UIWindow
+
+#if !os(watchOS)
+@available(watchOS, unavailable)
+public typealias CocoaTextInputTraits                                 = UITextInputTraits
 #endif
 
 #elseif os(macOS)
