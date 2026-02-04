@@ -10,10 +10,12 @@ public typealias CocoaHostingConfiguration = UIHostingConfiguration
 
 public typealias CocoaHostingController = UIHostingController
 
+#if !os(tvOS)
 @available(iOS 26.0, tvOS 26.0, *)
 @available(macOS, unavailable)
 @available(watchOS, unavailable)
 public typealias CocoaHostingSceneDelegate = UIHostingSceneDelegate
+#endif
 
 @available(iOS 16.0, tvOS 16.0, *)
 @available(macOS, unavailable)
