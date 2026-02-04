@@ -1,6 +1,6 @@
 # cocoa-aliases
 
-[![Swift 6.0](https://img.shields.io/badge/Swift-6.0_|_5.9-ED523F.svg?style=flat)](https://swift.org/download/) ![Platforms](https://img.shields.io/badge/Platforms-iOS_13_|_macOS_10.15_|_Catalyst_13_|_tvOS_14_|_watchOS_7-ED523F.svg?style=flat) [![@capture_context](https://img.shields.io/badge/Contact-@capture__context-1DA1F2.svg?style=flat&logo=twitter)](https://twitter.com/capture_context) 
+[![CI](https://github.com/CaptureContext/cocoa-aliases/actions/workflows/ci.yml/badge.svg)](https://github.com/CaptureContext/cocoa-aliases/actions/workflows/ci.yml) [![Swift 6.0](https://img.shields.io/badge/Swift-6.0_|_5.9-ED523F.svg?style=flat)](https://swift.org/download/) ![Platforms](https://img.shields.io/badge/Platforms-iOS_13_|_macOS_10.15_|_Catalyst_13_|_tvOS_14_|_watchOS_7-ED523F.svg?style=flat)
 
 A small Swift package that provides Cocoa-prefixed typealiases for AppKit and UIKit types.
 
