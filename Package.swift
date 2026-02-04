@@ -9,7 +9,7 @@ let package = Package(
 		.iOS(.v13),
 		.tvOS(.v13),
 		.watchOS(.v6),
-		.macCatalyst(.v13)
+		.macCatalyst(.v13),
 	],
 	products: [
 		.library(
@@ -20,7 +20,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/capturecontext/swift-marker-protocols.git",
-			.upToNextMajor(from: "1.4.0")
+			.upToNextMajor(from: "1.5.0")
 		),
 	],
 	targets: [
