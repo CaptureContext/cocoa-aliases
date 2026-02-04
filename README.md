@@ -1,6 +1,6 @@
 # cocoa-aliases
 
-[![CI](https://github.com/CaptureContext/cocoa-aliases/actions/workflows/ci.yml/badge.svg)](https://github.com/CaptureContext/cocoa-aliases/actions/workflows/ci.yml) [![Swift 6.0](https://img.shields.io/badge/Swift-6.0_|_5.9-ED523F.svg?style=flat)](https://swift.org/download/) ![Platforms](https://img.shields.io/badge/Platforms-iOS_13_|_macOS_10.15_|_Catalyst_13_|_tvOS_14_|_watchOS_7-ED523F.svg?style=flat)
+[![CI](https://github.com/capturecontext/cocoa-aliases/actions/workflows/ci.yml/badge.svg)](https://github.com/capturecontext/cocoa-aliases/actions/workflows/ci.yml) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcapturecontext%2Fcocoa-aliases%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/capturecontext/cocoa-aliases) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcapturecontext%2Fcocoa-aliases%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/capturecontext/cocoa-aliases)
 
 A small Swift package that provides Cocoa-prefixed typealiases for AppKit and UIKit types.
 
@@ -76,7 +76,7 @@ If you use SwiftPM for your project structure, add CocoaAliases to your package 
 ```swift
 .package(
   url: "https://github.com/capturecontext/cocoa-aliases.git",
-  .upToNextMinor(from: "3.2.1")
+  .upToNextMinor(from: "3.2.2")
 )
 ```
 
@@ -85,7 +85,7 @@ or via HTTPS
 ```swift
 .package(
   url: "https://github.com/capturecontext/cocoa-aliases.git",
-  .upToNextMinor(from: "3.2.1")
+  .upToNextMinor(from: "3.2.2")
 )
 ```
 
