@@ -1,3 +1,4 @@
+#if canImport(Darwin) && canImport(ObjectiveC)
 #if canImport(UIKit) && canImport(SwiftUI)
 import SwiftUI
 
@@ -123,4 +124,5 @@ extension CocoaViewControllerRepresentable {
 		updateCocoaViewController(controller, context: context)
 	}
 }
+#endif
 #endif

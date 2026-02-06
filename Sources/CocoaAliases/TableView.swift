@@ -1,3 +1,4 @@
+#if canImport(Darwin) && canImport(ObjectiveC)
 #if canImport(UIKit)
 import UIKit
 
@@ -49,3 +50,4 @@ public typealias CocoaDiffableDataSourceSnapshot = NSDiffableDataSourceSnapshot
 @available(macOS 10.15.1, iOS 13, *)
 @available(watchOS, unavailable)
 public typealias CocoaDiffableDataSourceSnapshotReference = NSDiffableDataSourceSnapshotReference
+#endif

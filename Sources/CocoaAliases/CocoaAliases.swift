@@ -1,3 +1,4 @@
+#if canImport(Darwin) && canImport(ObjectiveC)
 #if canImport(UIKit)
 import UIKit
 import CocoaMarkerProtocols
@@ -190,4 +191,5 @@ public typealias CocoaView                                            = NSView
 public typealias CocoaViewController                                  = NSViewController
 public typealias CocoaVisualEffectView                                = NSVisualEffectView
 public typealias CocoaWindow                                          = NSWindow
+#endif
 #endif

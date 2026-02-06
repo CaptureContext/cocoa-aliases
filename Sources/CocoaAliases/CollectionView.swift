@@ -1,3 +1,4 @@
+#if canImport(Darwin) && canImport(ObjectiveC)
 #if canImport(UIKit)
 import UIKit
 
@@ -201,3 +202,4 @@ extension NSDirectionalEdgeInsets {
 		return NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
 	}
 }
+#endif
