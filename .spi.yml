@@ -2,29 +2,29 @@ version: 1
 builder:
   configs:
   - platform: ios
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
     documentation_targets:
       - CocoaAliases
 
   - platform: macos-spm
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
     documentation_targets:
       - CocoaAliases
 
   - platform: tvos
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
     documentation_targets:
       - CocoaAliases
 
   - platform: watchos
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
     documentation_targets:
       - CocoaAliases
 
   - platform: visionOS
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
     documentation_targets:
       - CocoaAliases
 
   - platform: macos-xcodebuild
-    scheme: CocoaAliases
+    scheme: cocoa-aliases
