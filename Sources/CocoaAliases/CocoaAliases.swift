@@ -81,6 +81,7 @@ public typealias CocoaImageView                                       = UIImageV
 public typealias CocoaMenu                                            = UIMenu
 
 @available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
 public typealias CocoaNib                                             = UINib
 
 @available(watchOS, unavailable)
@@ -90,6 +91,7 @@ public typealias CocoaPanGestureRecognizer                            = UIPanGes
 public typealias CocoaResponder                                       = UIResponder
 
 @available(watchOS, unavailable)
+@available(visionOS, unavailable)
 public typealias CocoaScreen                                          = UIScreen
 
 @available(watchOS, unavailable)
@@ -105,9 +107,11 @@ public typealias CocoaSplitViewController                             = UISplitV
 public typealias CocoaStackView                                       = UIStackView
 
 @available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
 public typealias CocoaStoryboard                                      = UIStoryboard
 
 @available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
 public typealias CocoaStoryboardSegue                                 = UIStoryboardSegue
 
 @available(watchOS, unavailable)
