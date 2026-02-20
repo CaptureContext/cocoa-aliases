@@ -63,29 +63,20 @@ The Cocoa* aliases resolve to NS* types on macOS and UI* types on iOS, tvOS, and
 
 ### Basic
 
-You can add CocoaAliases to an Xcode project by adding it as a package dependency.
+You can add `cocoa-aliases` to an Xcode project by adding it as a package dependency
 
 1. From the **File** menu, select **Swift Packages › Add Package Dependency…**
-2. Enter [`https://github.com/capturecontext/cocoa-aliases`](https://github.com/capturecontext/cocoa-aliases) into the package repository URL text field
-3. Choose the products you need to link to your project.
+2. Enter [`"https://github.com/capturecontext/cocoa-aliases"`](https://github.com/capturecontext/cocoa-aliases) into the package repository URL text field
+3. Choose products you need to link to your project.
 
 ### Recommended
 
-If you use SwiftPM for your project structure, add CocoaAliases to your package file.
+If you use SwiftPM for your project structure, add `cocoa-aliases` dependency to your package file. 
 
 ```swift
 .package(
-  url: "https://github.com/capturecontext/cocoa-aliases.git",
-  .upToNextMinor(from: "3.2.2")
-)
-```
-
-or via HTTPS
-
-```swift
-.package(
-  url: "https://github.com/capturecontext/cocoa-aliases.git",
-  .upToNextMinor(from: "3.2.2")
+  url: "https://github.com/capturecontext/cocoa-aliases.git", 
+  .upToNextMinor("3.3.0")
 )
 ```
 
@@ -93,10 +84,14 @@ Do not forget about target dependencies:
 
 ```swift
 .product(
-  name: "CocoaAliases",
+  name: "CocoaAliases", 
   package: "cocoa-aliases"
 )
 ```
+
+> [!NOTE]
+>
+> _The package is compatible with non-Apple platforms, however it uses conditional compilation, so **APIs are only available on Apple platforms**_
 
 ## License
 
