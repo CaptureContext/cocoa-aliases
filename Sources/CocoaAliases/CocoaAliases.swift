@@ -9,6 +9,9 @@ public typealias _CocoaViewProtocol                                   = _UIViewP
 @available(watchOS, unavailable)
 public typealias _CocoaViewControllerProtocol                         = _UIViewControllerProtocol
 
+@available(watchOS, unavailable)
+public typealias CocoaLayoutGuide                                     = UILayoutGuide
+
 public typealias CocoaAccessibility                                   = UIAccessibility
 public typealias CocoaFont                                            = UIFont
 public typealias CocoaFontDescriptor                                  = UIFontDescriptor
@@ -150,6 +153,7 @@ import CocoaMarkerProtocols
 public typealias _CocoaViewProtocol                                   = _NSViewProtocol
 public typealias _CocoaViewControllerProtocol                         = _NSViewControllerProtocol
 
+public typealias CocoaLayoutGuide                                     = NSLayoutGuide
 public typealias CocoaAccessibility                                   = NSAccessibility
 public typealias CocoaAccessibilityElement                            = NSAccessibilityElement
 public typealias CocoaAlert                                           = NSAlert
