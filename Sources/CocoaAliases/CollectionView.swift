@@ -11,9 +11,11 @@ public typealias CocoaCollectionViewCell                                        
 @available(watchOS, unavailable)
 public typealias CocoaCollectionReusableView                                             = UICollectionReusableView
 
+#if !os(watchOS)
 @available(iOS 13.0, *)
 @available(watchOS, unavailable)
 public typealias CocoaCollectionViewDiffableDataSource                                   = UICollectionViewDiffableDataSource
+#endif
 
 @available(iOS 13.0, *)
 @available(watchOS, unavailable)

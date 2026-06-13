@@ -14,9 +14,10 @@ public typealias CocoaTableViewDataSource                        = UITableViewDa
 @available(watchOS, unavailable)
 public typealias CocoaTableViewDelegate                          = UITableViewDelegate
 
+#if !os(watchOS)
 @available(iOS 13, *)
-@available(watchOS, unavailable)
 public typealias CocoaTableViewDiffableDataSource                = UITableViewDiffableDataSource
+#endif
 
 @available(iOS 13, *)
 @available(watchOS, unavailable)
@@ -43,9 +44,11 @@ public typealias CocoaTableViewDiffableDataSourceReference       = NSTableViewDi
 
 #endif
 
+#if !os(watchOS)
 @available(macOS 10.15.1, iOS 13, *)
 @available(watchOS, unavailable)
 public typealias CocoaDiffableDataSourceSnapshot = NSDiffableDataSourceSnapshot
+#endif
 
 @available(macOS 10.15.1, iOS 13, *)
 @available(watchOS, unavailable)
