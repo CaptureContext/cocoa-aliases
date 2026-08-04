@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.4 (swiftlang-6.4.0.25.4 clang-2100.3.25.1)
-// swift-module-flags: -target arm64-apple-macos12.0 -enable-objc-interop -language-mode 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name CocoaAliases -package-name cocoa_aliases
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+// swift-compiler-version: Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-macosx10.15 -enable-objc-interop -swift-version 6 -O -module-name CocoaAliases -package-name cocoa_aliases
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import AppKit
 import CocoaMarkerProtocols
 import Swift
@@ -9,198 +9,198 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public typealias _CocoaViewProtocol = CocoaMarkerProtocols::_NSViewProtocol
-public typealias _CocoaViewControllerProtocol = CocoaMarkerProtocols::_NSViewControllerProtocol
-public typealias CocoaLayoutGuide = AppKit::NSLayoutGuide
-public typealias CocoaAccessibility = AppKit::NSAccessibility
-public typealias CocoaAccessibilityElement = AppKit::NSAccessibilityElement
-public typealias CocoaAlert = AppKit::NSAlert
-public typealias CocoaAppearance = AppKit::NSAppearance
-public typealias CocoaApplication = AppKit::NSApplication
-public typealias CocoaButton = AppKit::NSButton
-public typealias CocoaCell = AppKit::NSCell
-public typealias CocoaColor = AppKit::NSColor
-public typealias CocoaControl = AppKit::NSControl
-public typealias CocoaDatePicker = AppKit::NSDatePicker
-public typealias CocoaDocument = AppKit::NSDocument
-public typealias CocoaEvent = AppKit::NSEvent
-public typealias CocoaFont = AppKit::NSFont
-public typealias CocoaFontDescriptor = AppKit::NSFontDescriptor
-public typealias CocoaGestureRecognizer = AppKit::NSGestureRecognizer
-public typealias CocoaImage = AppKit::NSImage
-public typealias CocoaImageView = AppKit::NSImageView
-public typealias CocoaMenu = AppKit::NSMenu
-public typealias CocoaNib = AppKit::NSNib
-public typealias CocoaPanGestureRecognizer = AppKit::NSPanGestureRecognizer
-public typealias CocoaPasteboard = AppKit::NSPasteboard
-public typealias CocoaPrintInfo = AppKit::NSPrintInfo
-public typealias CocoaPrinter = AppKit::NSPrinter
-public typealias CocoaResponder = AppKit::NSResponder
-public typealias CocoaRotationGestureRecognizer = AppKit::NSRotationGestureRecognizer
-public typealias CocoaScreen = AppKit::NSScreen
-public typealias CocoaScrollView = AppKit::NSScrollView
-public typealias CocoaSegmentedControl = AppKit::NSSegmentedControl
-public typealias CocoaSlider = AppKit::NSSlider
-public typealias CocoaSplitViewController = AppKit::NSSplitViewController
-public typealias CocoaStackView = AppKit::NSStackView
-public typealias CocoaStepper = AppKit::NSStepper
-public typealias CocoaStoryboard = AppKit::NSStoryboard
-public typealias CocoaStoryboardSegue = AppKit::NSStoryboardSegue
-public typealias CocoaTextField = AppKit::NSTextField
-public typealias CocoaTextInput = AppKit::NSTextInput
-public typealias CocoaTextInputTraits = AppKit::NSTextInputTraits
-public typealias CocoaTextView = AppKit::NSTextView
-public typealias CocoaToolbar = AppKit::NSToolbar
-public typealias CocoaTouch = AppKit::NSTouch
-public typealias CocoaUserActivity = Foundation::NSUserActivity
-public typealias CocoaView = AppKit::NSView
-public typealias CocoaViewController = AppKit::NSViewController
-public typealias CocoaVisualEffectView = AppKit::NSVisualEffectView
-public typealias CocoaWindow = AppKit::NSWindow
-public typealias CocoaCollectionView = AppKit::NSCollectionView
-public typealias CocoaCollectionViewCell = AppKit::NSCollectionViewItem
-public typealias CocoaCollectionReusableView = AppKit::NSView
+public typealias _CocoaViewProtocol = CocoaMarkerProtocols._NSViewProtocol
+public typealias _CocoaViewControllerProtocol = CocoaMarkerProtocols._NSViewControllerProtocol
+public typealias CocoaLayoutGuide = AppKit.NSLayoutGuide
+public typealias CocoaAccessibility = AppKit.NSAccessibility
+public typealias CocoaAccessibilityElement = AppKit.NSAccessibilityElement
+public typealias CocoaAlert = AppKit.NSAlert
+public typealias CocoaAppearance = AppKit.NSAppearance
+public typealias CocoaApplication = AppKit.NSApplication
+public typealias CocoaButton = AppKit.NSButton
+public typealias CocoaCell = AppKit.NSCell
+public typealias CocoaColor = AppKit.NSColor
+public typealias CocoaControl = AppKit.NSControl
+public typealias CocoaDatePicker = AppKit.NSDatePicker
+public typealias CocoaDocument = AppKit.NSDocument
+public typealias CocoaEvent = AppKit.NSEvent
+public typealias CocoaFont = AppKit.NSFont
+public typealias CocoaFontDescriptor = AppKit.NSFontDescriptor
+public typealias CocoaGestureRecognizer = AppKit.NSGestureRecognizer
+public typealias CocoaImage = AppKit.NSImage
+public typealias CocoaImageView = AppKit.NSImageView
+public typealias CocoaMenu = AppKit.NSMenu
+public typealias CocoaNib = AppKit.NSNib
+public typealias CocoaPanGestureRecognizer = AppKit.NSPanGestureRecognizer
+public typealias CocoaPasteboard = AppKit.NSPasteboard
+public typealias CocoaPrintInfo = AppKit.NSPrintInfo
+public typealias CocoaPrinter = AppKit.NSPrinter
+public typealias CocoaResponder = AppKit.NSResponder
+public typealias CocoaRotationGestureRecognizer = AppKit.NSRotationGestureRecognizer
+public typealias CocoaScreen = AppKit.NSScreen
+public typealias CocoaScrollView = AppKit.NSScrollView
+public typealias CocoaSegmentedControl = AppKit.NSSegmentedControl
+public typealias CocoaSlider = AppKit.NSSlider
+public typealias CocoaSplitViewController = AppKit.NSSplitViewController
+public typealias CocoaStackView = AppKit.NSStackView
+public typealias CocoaStepper = AppKit.NSStepper
+public typealias CocoaStoryboard = AppKit.NSStoryboard
+public typealias CocoaStoryboardSegue = AppKit.NSStoryboardSegue
+public typealias CocoaTextField = AppKit.NSTextField
+public typealias CocoaTextInput = AppKit.NSTextInput
+public typealias CocoaTextInputTraits = AppKit.NSTextInputTraits
+public typealias CocoaTextView = AppKit.NSTextView
+public typealias CocoaToolbar = AppKit.NSToolbar
+public typealias CocoaTouch = AppKit.NSTouch
+public typealias CocoaUserActivity = Foundation.NSUserActivity
+public typealias CocoaView = AppKit.NSView
+public typealias CocoaViewController = AppKit.NSViewController
+public typealias CocoaVisualEffectView = AppKit.NSVisualEffectView
+public typealias CocoaWindow = AppKit.NSWindow
+public typealias CocoaCollectionView = AppKit.NSCollectionView
+public typealias CocoaCollectionViewCell = AppKit.NSCollectionViewItem
+public typealias CocoaCollectionReusableView = AppKit.NSView
 @available(macOS 10.15.1, *)
-public typealias CocoaCollectionViewDiffableDataSource = AppKit::NSCollectionViewDiffableDataSource
+public typealias CocoaCollectionViewDiffableDataSource = AppKit.NSCollectionViewDiffableDataSource
 @available(macOS 10.15.1, *)
-public typealias CocoaCollectionViewDiffableDataSourceReference = AppKit::NSCollectionViewDiffableDataSourceReference
-public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = AppKit::NSCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
-public typealias CocoaCollectionViewPrefetching = AppKit::NSCollectionViewPrefetching
-public typealias CocoaCollectionViewDataSource = AppKit::NSCollectionViewDataSource
-public typealias CocoaCollectionViewDelegate = AppKit::NSCollectionViewDelegate
+public typealias CocoaCollectionViewDiffableDataSourceReference = AppKit.NSCollectionViewDiffableDataSourceReference
+public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = AppKit.NSCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
+public typealias CocoaCollectionViewPrefetching = AppKit.NSCollectionViewPrefetching
+public typealias CocoaCollectionViewDataSource = AppKit.NSCollectionViewDataSource
+public typealias CocoaCollectionViewDelegate = AppKit.NSCollectionViewDelegate
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewLayout = AppKit::NSCollectionViewLayout
+public typealias CocoaCollectionViewLayout = AppKit.NSCollectionViewLayout
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewLayoutAttributes = AppKit::NSCollectionViewLayoutAttributes
+public typealias CocoaCollectionViewLayoutAttributes = AppKit.NSCollectionViewLayoutAttributes
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewInvalidationContext = AppKit::NSCollectionViewLayoutInvalidationContext
+public typealias CocoaCollectionViewInvalidationContext = AppKit.NSCollectionViewLayoutInvalidationContext
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewFlowLayout = AppKit::NSCollectionViewFlowLayout
+public typealias CocoaCollectionViewFlowLayout = AppKit.NSCollectionViewFlowLayout
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewGridLayout = AppKit::NSCollectionViewGridLayout
+public typealias CocoaCollectionViewGridLayout = AppKit.NSCollectionViewGridLayout
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewTransitionLayout = AppKit::NSCollectionViewTransitionLayout
+public typealias CocoaCollectionViewTransitionLayout = AppKit.NSCollectionViewTransitionLayout
 @available(macOS 10.11, *)
-public typealias CocoaCollectionViewDelegateFlowLayout = AppKit::NSCollectionViewDelegateFlowLayout
+public typealias CocoaCollectionViewDelegateFlowLayout = AppKit.NSCollectionViewDelegateFlowLayout
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutAnchor = AppKit::NSCollectionLayoutAnchor
+public typealias CocoaCollectionLayoutAnchor = AppKit.NSCollectionLayoutAnchor
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutBoundarySupplementaryItem = AppKit::NSCollectionLayoutBoundarySupplementaryItem
+public typealias CocoaCollectionLayoutBoundarySupplementaryItem = AppKit.NSCollectionLayoutBoundarySupplementaryItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutDecorationItem = AppKit::NSCollectionLayoutDecorationItem
+public typealias CocoaCollectionLayoutDecorationItem = AppKit.NSCollectionLayoutDecorationItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutDimension = AppKit::NSCollectionLayoutDimension
+public typealias CocoaCollectionLayoutDimension = AppKit.NSCollectionLayoutDimension
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutEdgeSpacing = AppKit::NSCollectionLayoutEdgeSpacing
+public typealias CocoaCollectionLayoutEdgeSpacing = AppKit.NSCollectionLayoutEdgeSpacing
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutEnvironment = AppKit::NSCollectionLayoutEnvironment
+public typealias CocoaCollectionLayoutEnvironment = AppKit.NSCollectionLayoutEnvironment
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutGroup = AppKit::NSCollectionLayoutGroup
+public typealias CocoaCollectionLayoutGroup = AppKit.NSCollectionLayoutGroup
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutGroupCustomItem = AppKit::NSCollectionLayoutGroupCustomItem
+public typealias CocoaCollectionLayoutGroupCustomItem = AppKit.NSCollectionLayoutGroupCustomItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutItem = AppKit::NSCollectionLayoutItem
+public typealias CocoaCollectionLayoutItem = AppKit.NSCollectionLayoutItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutSection = AppKit::NSCollectionLayoutSection
+public typealias CocoaCollectionLayoutSection = AppKit.NSCollectionLayoutSection
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutSize = AppKit::NSCollectionLayoutSize
+public typealias CocoaCollectionLayoutSize = AppKit.NSCollectionLayoutSize
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutSpacing = AppKit::NSCollectionLayoutSpacing
+public typealias CocoaCollectionLayoutSpacing = AppKit.NSCollectionLayoutSpacing
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutSupplementaryItem = AppKit::NSCollectionLayoutSupplementaryItem
+public typealias CocoaCollectionLayoutSupplementaryItem = AppKit.NSCollectionLayoutSupplementaryItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaCollectionLayoutVisibleItem = AppKit::NSCollectionLayoutVisibleItem
+public typealias CocoaCollectionLayoutVisibleItem = AppKit.NSCollectionLayoutVisibleItem
 @available(macOS 10.15, iOS 13.0, *)
 @available(watchOS, unavailable)
-public typealias CocoaDirectionalEdgeInsets = AppKit::NSDirectionalEdgeInsets
+public typealias CocoaDirectionalEdgeInsets = AppKit.NSDirectionalEdgeInsets
 @available(macOS 10.15, *)
-public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = AppKit::NSCollectionLayoutSectionOrthogonalScrollingBehavior
+public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = AppKit.NSCollectionLayoutSectionOrthogonalScrollingBehavior
 @available(macOS 10.15, *)
-public typealias CocoaCollectionViewCompositionalLayout = AppKit::NSCollectionViewCompositionalLayout
+public typealias CocoaCollectionViewCompositionalLayout = AppKit.NSCollectionViewCompositionalLayout
 @available(macOS 10.15, *)
-public typealias CocoaCollectionViewCompositionalLayoutConfiguration = AppKit::NSCollectionViewCompositionalLayoutConfiguration
+public typealias CocoaCollectionViewCompositionalLayoutConfiguration = AppKit.NSCollectionViewCompositionalLayoutConfiguration
 @available(macOS 10.15, *)
-public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = AppKit::NSCollectionViewCompositionalLayoutSectionProvider
+public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = AppKit.NSCollectionViewCompositionalLayoutSectionProvider
 @available(macOS 10.15, iOS 13.0, *)
-extension AppKit::NSDirectionalEdgeInsets {
-  public static var zero: AppKit::NSDirectionalEdgeInsets {
+extension AppKit.NSDirectionalEdgeInsets {
+  public static var zero: AppKit.NSDirectionalEdgeInsets {
     get
   }
 }
-public typealias CocoaLayoutPriority = AppKit::NSLayoutConstraint.AppKit::Priority
-public typealias CocoaLayoutConstraintAxis = AppKit::NSLayoutConstraint.AppKit::Orientation
-public typealias CocoaHostingController = SwiftUI::NSHostingController
+public typealias CocoaLayoutPriority = AppKit.NSLayoutConstraint.Priority
+public typealias CocoaLayoutConstraintAxis = AppKit.NSLayoutConstraint.Orientation
+public typealias CocoaHostingController = SwiftUI.NSHostingController
 @available(macOS 10.15, *)
 @available(iOS, unavailable)
 @available(tvOS, unavailable)
 @available(watchOS, unavailable)
-@_Concurrency::MainActor @preconcurrency public protocol CocoaViewRepresentable : SwiftUI::NSViewRepresentable {
+@_Concurrency.MainActor @preconcurrency public protocol CocoaViewRepresentable : SwiftUI.NSViewRepresentable {
   associatedtype CocoaViewType where Self.CocoaViewType == Self.NSViewType
-  @_Concurrency::MainActor @preconcurrency func makeCocoaView(context: Self.Context) -> Self.CocoaViewType
-  @_Concurrency::MainActor @preconcurrency func updateCocoaView(_ view: Self.CocoaViewType, context: Self.Context)
+  @_Concurrency.MainActor @preconcurrency func makeCocoaView(context: Self.Context) -> Self.CocoaViewType
+  @_Concurrency.MainActor @preconcurrency func updateCocoaView(_ view: Self.CocoaViewType, context: Self.Context)
   @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
-  @_Concurrency::MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore::ProposedViewSize, cocoaView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation::CGSize?
+  @_Concurrency.MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, cocoaView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation.CGSize?
 }
 @available(macOS 10.15, *)
 @available(iOS, unavailable)
 @available(tvOS, unavailable)
 @available(watchOS, unavailable)
-extension CocoaAliases::CocoaViewRepresentable {
-  @_Concurrency::MainActor @preconcurrency public func makeNSView(context: Self.Context) -> Self.CocoaViewType
-  @_Concurrency::MainActor @preconcurrency public func updateNSView(_ view: Self.CocoaViewType, context: Self.Context)
+extension CocoaAliases.CocoaViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeNSView(context: Self.Context) -> Self.CocoaViewType
+  @_Concurrency.MainActor @preconcurrency public func updateNSView(_ view: Self.CocoaViewType, context: Self.Context)
   @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
-  @_Concurrency::MainActor @preconcurrency public func sizeThatFits(_ proposal: SwiftUICore::ProposedViewSize, nsView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation::CGSize?
+  @_Concurrency.MainActor @preconcurrency public func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, nsView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation.CGSize?
 }
 @available(macOS 10.15, *)
 @available(iOS, unavailable)
 @available(tvOS, unavailable)
 @available(watchOS, unavailable)
-@_Concurrency::MainActor @preconcurrency public protocol CocoaViewControllerRepresentable : SwiftUI::NSViewControllerRepresentable {
+@_Concurrency.MainActor @preconcurrency public protocol CocoaViewControllerRepresentable : SwiftUI.NSViewControllerRepresentable {
   associatedtype CocoaViewControllerType where Self.CocoaViewControllerType == Self.NSViewControllerType
-  @_Concurrency::MainActor @preconcurrency func makeCocoaViewController(context: Self.Context) -> Self.CocoaViewControllerType
-  @_Concurrency::MainActor @preconcurrency func updateCocoaViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
+  @_Concurrency.MainActor @preconcurrency func makeCocoaViewController(context: Self.Context) -> Self.CocoaViewControllerType
+  @_Concurrency.MainActor @preconcurrency func updateCocoaViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
   @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
-  @_Concurrency::MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore::ProposedViewSize, cocoaViewController: Self.CocoaViewControllerType, context: Self.Context) -> CoreFoundation::CGSize?
+  @_Concurrency.MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, cocoaViewController: Self.CocoaViewControllerType, context: Self.Context) -> CoreFoundation.CGSize?
 }
 @available(macOS 10.15, *)
 @available(iOS, unavailable)
 @available(tvOS, unavailable)
 @available(watchOS, unavailable)
-extension CocoaAliases::CocoaViewControllerRepresentable {
-  @_Concurrency::MainActor @preconcurrency public func makeNSViewController(context: Self.Context) -> Self.CocoaViewControllerType
-  @_Concurrency::MainActor @preconcurrency public func updateNSViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
+extension CocoaAliases.CocoaViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeNSViewController(context: Self.Context) -> Self.CocoaViewControllerType
+  @_Concurrency.MainActor @preconcurrency public func updateNSViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
   @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
-  @_Concurrency::MainActor @preconcurrency public func sizeThatFits(_ proposal: SwiftUICore::ProposedViewSize, nsViewController: Self.CocoaViewControllerType, context: Self.Context) -> CoreFoundation::CGSize?
+  @_Concurrency.MainActor @preconcurrency public func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, nsViewController: Self.CocoaViewControllerType, context: Self.Context) -> CoreFoundation.CGSize?
 }
-public typealias CocoaTableView = AppKit::NSTableView
-public typealias CocoaTableViewCell = AppKit::NSTableCellView
-public typealias CocoaTableRowView = AppKit::NSTableRowView
-public typealias CocoaTableHeaderView = AppKit::NSTableHeaderView
-public typealias CocoaTableHeaderCell = AppKit::NSTableHeaderCell
-public typealias CocoaTableViewDataSource = AppKit::NSTableViewDataSource
-public typealias CocoaTableViewDelegate = AppKit::NSTableViewDelegate
-public typealias CocoaTableSection = AppKit::NSTableColumn
+public typealias CocoaTableView = AppKit.NSTableView
+public typealias CocoaTableViewCell = AppKit.NSTableCellView
+public typealias CocoaTableRowView = AppKit.NSTableRowView
+public typealias CocoaTableHeaderView = AppKit.NSTableHeaderView
+public typealias CocoaTableHeaderCell = AppKit.NSTableHeaderCell
+public typealias CocoaTableViewDataSource = AppKit.NSTableViewDataSource
+public typealias CocoaTableViewDelegate = AppKit.NSTableViewDelegate
+public typealias CocoaTableSection = AppKit.NSTableColumn
 @available(macOS 11, *)
-public typealias CocoaTableViewDiffableDataSource = AppKit::NSTableViewDiffableDataSource
+public typealias CocoaTableViewDiffableDataSource = AppKit.NSTableViewDiffableDataSource
 @available(macOS 11, *)
-public typealias CocoaTableViewDiffableDataSourceReference = AppKit::NSTableViewDiffableDataSourceReference
+public typealias CocoaTableViewDiffableDataSourceReference = AppKit.NSTableViewDiffableDataSourceReference
 @available(macOS 10.15.1, iOS 13, *)
 @available(watchOS, unavailable)
-public typealias CocoaDiffableDataSourceSnapshot = AppKit::NSDiffableDataSourceSnapshot
+public typealias CocoaDiffableDataSourceSnapshot = AppKit.NSDiffableDataSourceSnapshot
 @available(macOS 10.15.1, iOS 13, *)
 @available(watchOS, unavailable)
-public typealias CocoaDiffableDataSourceSnapshotReference = AppKit::NSDiffableDataSourceSnapshotReference
+public typealias CocoaDiffableDataSourceSnapshotReference = AppKit.NSDiffableDataSourceSnapshotReference
