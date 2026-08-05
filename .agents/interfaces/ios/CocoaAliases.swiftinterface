@@ -1,0 +1,279 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -swift-version 6 -O -module-name CocoaAliases -package-name cocoa_aliases
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import CocoaMarkerProtocols
+import Swift
+import SwiftUI
+@_exported import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@available(watchOS, unavailable)
+public typealias _CocoaViewProtocol = CocoaMarkerProtocols._UIViewProtocol
+@available(watchOS, unavailable)
+public typealias _CocoaViewControllerProtocol = CocoaMarkerProtocols._UIViewControllerProtocol
+@available(watchOS, unavailable)
+public typealias CocoaLayoutGuide = UIKit.UILayoutGuide
+public typealias CocoaAccessibility = UIKit.UIAccessibility
+public typealias CocoaFont = UIKit.UIFont
+public typealias CocoaFontDescriptor = UIKit.UIFontDescriptor
+public typealias CocoaColor = UIKit.UIColor
+public typealias CocoaImage = UIKit.UIImage
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaDatePicker = UIKit.UIDatePicker
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaDocument = UIKit.UIDocument
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPasteboard = UIKit.UIPasteboard
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPrintInfo = UIKit.UIPrintInfo
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaPrinter = UIKit.UIPrinter
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaRotationGestureRecognizer = UIKit.UIRotationGestureRecognizer
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaSlider = UIKit.UISlider
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaToolbar = UIKit.UIToolbar
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaStepper = UIKit.UIStepper
+@available(watchOS, unavailable)
+public typealias CocoaEvent = UIKit.UIEvent
+@available(watchOS, unavailable)
+public typealias CocoaGestureRecognizer = UIKit.UIGestureRecognizer
+@available(watchOS, unavailable)
+public typealias CocoaAccessibilityElement = UIKit.UIAccessibilityElement
+@available(watchOS, unavailable)
+public typealias CocoaAppearance = UIKit.UIAppearance
+@available(watchOS, unavailable)
+public typealias CocoaApplication = UIKit.UIApplication
+@available(watchOS, unavailable)
+public typealias CocoaButton = UIKit.UIButton
+@available(watchOS, unavailable)
+public typealias CocoaControl = UIKit.UIControl
+@available(watchOS, unavailable)
+public typealias CocoaImageView = UIKit.UIImageView
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaMenu = UIKit.UIMenu
+@available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
+public typealias CocoaNib = UIKit.UINib
+@available(watchOS, unavailable)
+public typealias CocoaPanGestureRecognizer = UIKit.UIPanGestureRecognizer
+@available(watchOS, unavailable)
+public typealias CocoaResponder = UIKit.UIResponder
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+public typealias CocoaScreen = UIKit.UIScreen
+@available(watchOS, unavailable)
+public typealias CocoaScrollView = UIKit.UIScrollView
+@available(watchOS, unavailable)
+public typealias CocoaSegmentedControl = UIKit.UISegmentedControl
+@available(watchOS, unavailable)
+public typealias CocoaSplitViewController = UIKit.UISplitViewController
+@available(watchOS, unavailable)
+public typealias CocoaStackView = UIKit.UIStackView
+@available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
+public typealias CocoaStoryboard = UIKit.UIStoryboard
+@available(watchOS, unavailable)
+@available(visionOS, deprecated, message: "Loading Interface Builder products will not be supported in a future version of visionOS.")
+public typealias CocoaStoryboardSegue = UIKit.UIStoryboardSegue
+@available(watchOS, unavailable)
+public typealias CocoaTextField = UIKit.UITextField
+@available(watchOS, unavailable)
+public typealias CocoaTextInput = UIKit.UITextInput
+@available(watchOS, unavailable)
+public typealias CocoaTextView = UIKit.UITextView
+@available(watchOS, unavailable)
+public typealias CocoaTouch = UIKit.UITouch
+@available(watchOS, unavailable)
+public typealias CocoaView = UIKit.UIView
+@available(watchOS, unavailable)
+public typealias CocoaViewController = UIKit.UIViewController
+@available(watchOS, unavailable)
+public typealias CocoaVisualEffectView = UIKit.UIVisualEffectView
+@available(watchOS, unavailable)
+public typealias CocoaWindow = UIKit.UIWindow
+@available(watchOS, unavailable)
+public typealias CocoaTextInputTraits = UIKit.UITextInputTraits
+@available(watchOS, unavailable)
+public typealias CocoaCollectionView = UIKit.UICollectionView
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewCell = UIKit.UICollectionViewCell
+@available(watchOS, unavailable)
+public typealias CocoaCollectionReusableView = UIKit.UICollectionReusableView
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDiffableDataSource = UIKit.UICollectionViewDiffableDataSource
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDiffableDataSourceReference = UIKit.UICollectionViewDiffableDataSourceReference
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDiffableDataSourceReferenceCellProvider = UIKit.UICollectionViewDiffableDataSourceReferenceCellProvider
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDiffableDataSourceReferenceSupplementaryViewProvider = UIKit.UICollectionViewDiffableDataSourceReferenceSupplementaryViewProvider
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewPrefetching = UIKit.UICollectionViewDataSourcePrefetching
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDataSource = UIKit.UICollectionViewDataSource
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDelegate = UIKit.UICollectionViewDelegate
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewLayout = UIKit.UICollectionViewLayout
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewLayoutAttributes = UIKit.UICollectionViewLayoutAttributes
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewInvalidationContext = UIKit.UICollectionViewLayoutInvalidationContext
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewFlowLayout = UIKit.UICollectionViewFlowLayout
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewTransitionLayout = UIKit.UICollectionViewTransitionLayout
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewDelegateFlowLayout = UIKit.UICollectionViewDelegateFlowLayout
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutAnchor = UIKit.NSCollectionLayoutAnchor
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutBoundarySupplementaryItem = UIKit.NSCollectionLayoutBoundarySupplementaryItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutDecorationItem = UIKit.NSCollectionLayoutDecorationItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutDimension = UIKit.NSCollectionLayoutDimension
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutEdgeSpacing = UIKit.NSCollectionLayoutEdgeSpacing
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutEnvironment = UIKit.NSCollectionLayoutEnvironment
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutGroup = UIKit.NSCollectionLayoutGroup
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutGroupCustomItem = UIKit.NSCollectionLayoutGroupCustomItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutItem = UIKit.NSCollectionLayoutItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutSection = UIKit.NSCollectionLayoutSection
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutSize = UIKit.NSCollectionLayoutSize
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutSpacing = UIKit.NSCollectionLayoutSpacing
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutSupplementaryItem = UIKit.NSCollectionLayoutSupplementaryItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutVisibleItem = UIKit.NSCollectionLayoutVisibleItem
+@available(macOS 10.15, iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaDirectionalEdgeInsets = UIKit.NSDirectionalEdgeInsets
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionLayoutSectionOrthogonalScrollingBehavior = UIKit.UICollectionLayoutSectionOrthogonalScrollingBehavior
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewCompositionalLayout = UIKit.UICollectionViewCompositionalLayout
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewCompositionalLayoutConfiguration = UIKit.UICollectionViewCompositionalLayoutConfiguration
+@available(iOS 13.0, *)
+@available(watchOS, unavailable)
+public typealias CocoaCollectionViewCompositionalLayoutSectionProvider = UIKit.UICollectionViewCompositionalLayoutSectionProvider
+@available(macOS 10.15, iOS 13.0, *)
+extension UIKit.NSDirectionalEdgeInsets {
+  public static var zero: UIKit.NSDirectionalEdgeInsets {
+    get
+  }
+}
+@available(watchOS, unavailable)
+public typealias CocoaLayoutPriority = UIKit.UILayoutPriority
+@available(watchOS, unavailable)
+public typealias CocoaLayoutConstraintAxis = UIKit.NSLayoutConstraint.Axis
+@available(iOS 16.0, tvOS 16.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingConfiguration = SwiftUI.UIHostingConfiguration
+public typealias CocoaHostingController = SwiftUI.UIHostingController
+@available(iOS 26.0, tvOS 26.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingSceneDelegate = SwiftUI.UIHostingSceneDelegate
+@available(iOS 16.0, tvOS 16.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public typealias CocoaHostingControllerSizingOptions = SwiftUI.UIHostingControllerSizingOptions
+@available(iOS 13.0, tvOS 13.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+@_Concurrency.MainActor @preconcurrency public protocol CocoaViewRepresentable : SwiftUI.UIViewRepresentable {
+  associatedtype CocoaViewType where Self.CocoaViewType == Self.UIViewType
+  @_Concurrency.MainActor @preconcurrency func makeCocoaView(context: Self.Context) -> Self.CocoaViewType
+  @_Concurrency.MainActor @preconcurrency func updateCocoaView(_ view: Self.CocoaViewType, context: Self.Context)
+  @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+  @_Concurrency.MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, cocoaView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation.CGSize?
+}
+@available(iOS 13.0, tvOS 13.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+extension CocoaAliases.CocoaViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: Self.Context) -> Self.CocoaViewType
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ view: Self.CocoaViewType, context: Self.Context)
+  @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+  @_Concurrency.MainActor @preconcurrency public func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, uiView: Self.CocoaViewType, context: Self.Context) -> CoreFoundation.CGSize?
+}
+@available(iOS 13.0, tvOS 13.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+@_Concurrency.MainActor @preconcurrency public protocol CocoaViewControllerRepresentable : SwiftUI.UIViewControllerRepresentable {
+  associatedtype CocoaViewControllerType where Self.CocoaViewControllerType == Self.UIViewControllerType
+  @_Concurrency.MainActor @preconcurrency func makeCocoaViewController(context: Self.Context) -> Self.CocoaViewControllerType
+  @_Concurrency.MainActor @preconcurrency func updateCocoaViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
+  @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+  @_Concurrency.MainActor @preconcurrency func sizeThatFits(_ proposal: SwiftUICore.ProposedViewSize, cocoaViewController: Self.CocoaViewControllerType, context: Self.Context) -> CoreFoundation.CGSize?
+}
+@available(iOS 13.0, tvOS 13.0, *)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+extension CocoaAliases.CocoaViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: Self.Context) -> Self.CocoaViewControllerType
+  @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ controller: Self.CocoaViewControllerType, context: Self.Context)
+}
+@available(watchOS, unavailable)
+public typealias CocoaTableView = UIKit.UITableView
+@available(watchOS, unavailable)
+public typealias CocoaTableViewCell = UIKit.UITableViewCell
+@available(watchOS, unavailable)
+public typealias CocoaTableViewDataSource = UIKit.UITableViewDataSource
+@available(watchOS, unavailable)
+public typealias CocoaTableViewDelegate = UIKit.UITableViewDelegate
+@available(iOS 13, *)
+public typealias CocoaTableViewDiffableDataSource = UIKit.UITableViewDiffableDataSource
+@available(iOS 13, *)
+@available(watchOS, unavailable)
+public typealias CocoaTableViewDiffableDataSourceReference = UIKit.UITableViewDiffableDataSourceReference
+@available(macOS 10.15.1, iOS 13, *)
+@available(watchOS, unavailable)
+public typealias CocoaDiffableDataSourceSnapshot = UIKit.NSDiffableDataSourceSnapshot
+@available(macOS 10.15.1, iOS 13, *)
+@available(watchOS, unavailable)
+public typealias CocoaDiffableDataSourceSnapshotReference = UIKit.NSDiffableDataSourceSnapshotReference
